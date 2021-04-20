@@ -27,7 +27,7 @@ class BinanceRestApi:
 
 	API_KEY    = None
 	API_SECRET = None
-	API_URL = 'https://api.binance.com'
+	SPOT_API_URL = 'https://api.binance.com'
 	USDM_BASE_URL  = 'https://fapi.binance.com'
 	CoinM_BASE_URL = 'https://dapi.binance.com'
 

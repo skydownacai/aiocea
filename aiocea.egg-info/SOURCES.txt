@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+aiocea.egg-info/PKG-INFO
+aiocea.egg-info/SOURCES.txt
+aiocea.egg-info/dependency_links.txt
+aiocea.egg-info/top_level.txt

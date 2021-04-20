@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
 	name="aiocea",  #
-	version="0.1",  # 包版本号，便于维护版本
+	version="0.2",  # 包版本号，便于维护版本
 	author="skydownacai",  # 作者，可以写自己的姓名
 	author_email="932997367@qq.com",  # 作者联系方式，可写自己的邮箱地址
 	description="A asynico io framework for crypto api ",  # 包的简述
