@@ -19,8 +19,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../aiocea/.ignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/../aiocea/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -32,11 +36,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../aiocea/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../aiocea/tasklists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="202" column="41" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
+            <state relative-caret-position="250">
+              <caret line="532" column="6" selection-start-line="532" selection-start-column="6" selection-end-line="532" selection-end-column="6" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#111#368#0" />
@@ -80,6 +93,8 @@
         <option value="$PROJECT_DIR$/../aiocea/utils.py" />
         <option value="$PROJECT_DIR$/../aiocea/setup.py" />
         <option value="$PROJECT_DIR$/../aiocea/tasklists.py" />
+        <option value="$PROJECT_DIR$/../aiocea/.gitignore" />
+        <option value="$PROJECT_DIR$/../aiocea/upload.bat" />
       </list>
     </option>
   </component>
@@ -102,22 +117,6 @@
             <path>
               <item name="aioca" type="b2602c69:ProjectViewProjectNode" />
               <item name="aiocea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aioca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aiocea" type="462c0819:PsiDirectoryNode" />
-              <item name="tasklists.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="aioca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aiocea" type="462c0819:PsiDirectoryNode" />
-              <item name="utils.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="aioca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aiocea" type="462c0819:PsiDirectoryNode" />
-              <item name="utils.py" type="8704e2dd:PyFileNode" />
-              <item name="BinanceRestApi" type="dd8bbb05:PyElementNode" />
             </path>
           </expand>
           <select />
@@ -471,12 +470,12 @@
       <option name="presentableId" value="Default" />
       <updated>1618887716828</updated>
       <workItem from="1618887722019" duration="11771000" />
-      <workItem from="1618899847334" duration="6185000" />
+      <workItem from="1618899847334" duration="6434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17956000" />
+    <option name="totallyTimeSpent" value="18205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
@@ -652,8 +651,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../aiocea/upload.bat">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/../aiocea/schedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../aiocea/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../aiocea/setup.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -662,17 +672,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../aiocea/schedule.py">
+    <entry file="file://$PROJECT_DIR$/../aiocea/upload.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="20">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../aiocea/tasklists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="202" column="41" selection-start-line="202" selection-start-column="41" selection-end-line="202" selection-end-column="41" />
+        <state relative-caret-position="250">
+          <caret line="532" column="6" selection-start-line="532" selection-start-column="6" selection-end-line="532" selection-end-column="6" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#111#368#0" />
