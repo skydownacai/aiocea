@@ -33,7 +33,7 @@ class CoinMPing(Task):
 	'''
 	async def __call__(self, *args, **kwargs):
 		response = await self.binance_API.\
-						 request(method = "GET",url = BinanceRestApi.CoinM_BASE_URL + "/dapi/v1/ping")
+		request(method = "GET",url = BinanceRestApi.CoinM_BASE_URL + "/dapi/v1/ping")
 		return response
     
 	def __str__(self):
@@ -154,7 +154,7 @@ aioca在taskoperator.py中已经预定义了以下三种任务队列模型:
 
 下面的列子展示了如何生成一个任务队列。
 
-```
+```python
 from tasks import GatherTask,SerialTask
 from taskoperator import TaskRing
 from tasklists import *
