@@ -1,6 +1,6 @@
-# aioca  异步数字货币交易所接口框架
+# aiocea  异步数字货币交易所接口框架
 
-aioca是 基于asynico 与aiohttp的数字货币交易所接口整合框架。该框架封装了币安交易所的API(未来将支持更多交易所), 实现了串行,并发, 串行与并发混合执行的 网络请求任务。 该框架逻辑清晰，
+aiocea是 基于asynico 与aiohttp的数字货币交易所接口整合框架。该框架封装了币安交易所的API(未来将支持更多交易所), 实现了串行,并发, 串行与并发混合执行的 网络请求任务。 该框架逻辑清晰，
 
 ## Getting Started : 快速理解框架与逻辑
 
@@ -8,7 +8,7 @@ aioca是 基于asynico 与aiohttp的数字货币交易所接口整合框架。�
 
 ### 1. 实例交易所API
 
-aioca 在utils.py 中封装了交易所Restful API请求方法(目前仅支持币安)。其中, 币安交易所为类`BinanceRestApi` ，它封装了请求币安交易所Restful API时的请求方法。传入你的API_KEY与API_SERECT即可完成一个交易所API请求实例。如下代码:
+aiocea 在utils.py 中封装了交易所Restful API请求方法(目前仅支持币安)。其中, 币安交易所为类`BinanceRestApi` ，它封装了请求币安交易所Restful API时的请求方法。传入你的API_KEY与API_SERECT即可完成一个交易所API请求实例。如下代码:
 
 ```python
 from utils import BinanceRestApi
@@ -83,7 +83,7 @@ class CoinMPing(Task):
 
 3. \__str__ : 该方法用于命名这个特定的任务。如若没有实现，将继承自父类`Task`中的方法 
 
-**aioca在tasklists.py 里已经定义了常用的币安数据请求任务，在大多数场景下,直接导入使用即可。返回数据均为原始返回数据json处理后的结果。**
+**aiocea 在tasklists.py 里已经定义了常用的币安数据请求任务，在大多数场景下,直接导入使用即可。返回数据均为原始返回数据json处理后的结果。**
 
 
 
@@ -140,9 +140,9 @@ serialtask.show_tasks()
 
 ### 3. 定义任务队列
 
-在aioca中, 执行任务是以队列模型为执行的。执行器将根据不同的任务队列实现不同形式的任务执行顺序。任务队列中的任务
+在aiocea中, 执行任务是以队列模型为执行的。执行器将根据不同的任务队列实现不同形式的任务执行顺序。任务队列中的任务
 
-aioca在taskoperator.py中已经预定义了以下三种任务队列模型:
+aiocea在taskoperator.py中已经预定义了以下三种任务队列模型:
 
 - `TaskQueue` 先进先出任务队列
 - `TaskStack` 先进后出任务栈
@@ -187,7 +187,7 @@ ring.show_tasks()
 
 ### 4. 创建任务执行器,添加任务队列, 获得执行结果
 
-在aioca中, 执行队列中的任务。都需要任务执行器来执行，它是定义在taskoperator.py中`TaskOperater`类的对象。
+在aiocea中, 执行队列中的任务。都需要任务执行器来执行，它是定义在taskoperator.py中`TaskOperater`类的对象。
 
 任务执行器将同步执行所添加任务队列中的任务，每执行完一个任务，该任务的**result**属性将从**None** 变为对应的异步请求的结果。
 

@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 	long_description = fh.read()
 
 setuptools.setup(
-	name="aioca",  # 用自己的名替换其中的YOUR_USERNAME_
+	name="aiocea",  #
 	version="0.1",  # 包版本号，便于维护版本
 	author="skydownacai",  # 作者，可以写自己的姓名
 	author_email="932997367@qq.com",  # 作者联系方式，可写自己的邮箱地址
