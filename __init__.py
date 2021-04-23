@@ -1,3 +1,2 @@
-
-__version__ = 1.0
-__all__ = ["exceptions","tasklist","taskoperator"]
+__version__ = 0.2
+__all__ = ["exceptions","tasklists","taskoperator","tasks","schedule"]
